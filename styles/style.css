@@ -1,1 +1,81 @@
-/* место для вашего кода */
+/*сбросы*/
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  /*background-color: rgba(0, 0, 0, 0.6);*/
+}
+
+/*блок адреса*/
+.address {
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24.3px;
+}
+
+.address a {
+  display: block;
+  border-bottom: 1px solid currentColor;
+  text-decoration: none;
+}
+
+.address p {
+  margin: 0;
+}
+
+/* шаг 4. Шапка */
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  padding: 92px 50px 0;
+}
+
+/*меню*/
+.header__menu {
+  justify-self: start;
+}
+
+.header__links-list {
+  display: flex;
+  gap: 32px;
+  list-style: circle;
+}
+
+.header__links-list-item {
+  background-color: transparent;
+}
+
+.header__links-list-item_no-bullit {
+  list-style: none;
+}
+
+.header__link {
+  font-size: 18px;
+  line-height: 24.3px;
+  border-bottom: 1px solid currentColor;
+}
+
+.header__link_active {
+  border-bottom: none;
+}
+
+/* логотип в шапке*/
+.header__logo {
+  display: block;
+  width: 148px;
+}
+
+/*адрес в шапке*/
+.header__address {
+  justify-self: end;
+  max-width: 240px;
+}
