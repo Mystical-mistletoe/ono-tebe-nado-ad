@@ -11,7 +11,7 @@ ul {
   position: absolute;
   inset: 0;
   z-index: 0;
-  /*background-color: rgba(0, 0, 0, 0.6);*/
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 /*блок адреса*/
@@ -78,4 +78,75 @@ ul {
 .header__address {
   justify-self: end;
   max-width: 240px;
+}
+
+/*обложка*/
+.cover {
+  position: relative;
+  min-height: 757px;
+  padding: 165px 50px 50px;
+  background: url(../images/cover.jpg) center no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+/*контент выше оверлея */
+.cover__title {
+  position: relative;
+  z-index: 1;
+  font-size: 100px;
+  font-weight: bold;
+  line-height: 115px;
+  letter-spacing: 30px;
+  text-transform: uppercase;
+}
+
+.aligned-text {
+  display: block;
+  text-align: left;
+}
+
+.aligned-text_center {
+  text-align: center;
+}
+
+.aligned-text_right {
+  text-align: right;
+}
+
+.letter-spacing-extended {
+  letter-spacing: 60px;
+}
+
+.no-letter-spacing {
+  letter-spacing: 0;
+}
+
+/*описание, кнопка*/
+.cover__description {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 106px;
+}
+
+.cover__description-text {
+  font-size: 22px;
+  line-height: 28px;
+  word-spacing: 18px;
+  text-transform: uppercase;
+}
+
+.bet-button {
+  font-family: Raleway, sans-serif;
+  font-size: 22px;
+  font-weight: normal;
+  line-height: 28px;
+  color: #fff;
+  text-transform: uppercase;
+  background: transparent;
+  border: 1px solid #fff;
+  padding: 12px 32px;
 }
