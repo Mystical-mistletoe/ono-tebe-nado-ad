@@ -120,12 +120,12 @@ ul {
 
 .aligned-text_center {
   text-align: center;
-  margin-top: 6px;
+  margin-top: 12px;
 }
 
 .aligned-text_right {
   text-align: right;
-  margin-top: 6px;
+  margin-top: 12px;
 }
 
 .letter-spacing-extended {
@@ -143,7 +143,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 112px;
+  margin-top: 118px;
 }
 
 .cover__description-text {
@@ -265,7 +265,7 @@ ul {
   height: 240px;
   border-radius: 50%;
   background-color: #000;
-  margin: 6px auto 0;
+  margin: 12px auto 0;
 }
 
 .about__logo-image {
@@ -330,7 +330,7 @@ ul {
   justify-content: flex-end;
   align-items: center;
   height: 100%;
-  padding-top: 6px;
+  padding-top: 12px;
 }
 
 .footer__social-list-item {
