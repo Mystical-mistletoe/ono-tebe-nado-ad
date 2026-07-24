@@ -82,10 +82,14 @@ ul {
   width: 148px;
 }
 
+.header__logo-image {
+  height: 105px;
+}
+
 /*адрес в шапке*/
 .header__address {
   justify-self: end;
-  max-width: 240px;
+  width: 240px;
 }
 
 /*обложка*/
@@ -123,7 +127,7 @@ ul {
 }
 
 .letter-spacing-extended {
-  letter-spacing: 60px;
+  letter-spacing: 30px;
 }
 
 .no-letter-spacing {
@@ -212,13 +216,14 @@ ul {
   line-height: 1.18;
   text-decoration: underline;
   text-underline-offset: 4px;
+  text-transform: uppercase;
 }
 
 .card__text {
   position: relative;
   z-index: 1;
-  font-size: 18px;
-  line-height: 1.33;
+  font-size: 20px;
+  line-height: 1.2;
 }
 
 .card_type_film {
