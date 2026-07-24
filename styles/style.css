@@ -18,7 +18,7 @@ ul {
 .address {
   font-style: normal;
   font-size: 18px;
-  line-height: 24.3px;
+  line-height: 1.35;
 }
 
 .address a {
@@ -31,12 +31,20 @@ ul {
   margin: 0;
 }
 
+.address > * {
+  margin-bottom: 8px;
+}
+
+.address > *:last-child {
+  margin-bottom: 0;
+}
+
 /* шаг 4. Шапка */
 .header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 92px 50px 0;
+  padding: 92px 50px 96px;
 }
 
 /*меню*/
@@ -60,7 +68,7 @@ ul {
 
 .header__link {
   font-size: 18px;
-  line-height: 24.3px;
+  line-height: 1.35;
   border-bottom: 1px solid currentColor;
 }
 
@@ -96,7 +104,7 @@ ul {
   z-index: 1;
   font-size: 100px;
   font-weight: bold;
-  line-height: 115px;
+  line-height: 1.15;
   letter-spacing: 30px;
   text-transform: uppercase;
 }
@@ -134,7 +142,7 @@ ul {
 
 .cover__description-text {
   font-size: 22px;
-  line-height: 28px;
+  line-height: 1.27;
   word-spacing: 18px;
   text-transform: uppercase;
 }
@@ -143,23 +151,24 @@ ul {
   font-family: Raleway, sans-serif;
   font-size: 22px;
   font-weight: normal;
-  line-height: 28px;
+  line-height: 1.27;
   color: #fff;
   text-transform: uppercase;
   background: transparent;
   border: 1px solid #fff;
   padding: 12px 32px;
+  cursor: pointer;
 }
 
 /*Лоты*/
 .lots {
-  padding: 180px 50px 0;
+  padding: 180px 24px 0;
 }
 
 .lots__heading {
   font-size: 40px;
   font-weight: bold;
-  line-height: 47px;
+  line-height: 1.175;
   text-transform: uppercase;
   margin-left: 40px;
   margin-bottom: 27px;
@@ -173,7 +182,7 @@ ul {
 
 .lots__card-list-item {
   width: 334px;
-  min-height: 563px;
+  min-height: 596px;
   list-style: none;
 }
 
@@ -200,7 +209,7 @@ ul {
   z-index: 1;
   font-size: 22px;
   font-weight: bold;
-  line-height: 26px;
+  line-height: 1.18;
   text-decoration: underline;
   text-underline-offset: 4px;
 }
@@ -209,7 +218,7 @@ ul {
   position: relative;
   z-index: 1;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1.33;
 }
 
 .card_type_film {
@@ -227,18 +236,18 @@ ul {
 .lots__look-more-link {
   display: inline-block;
   font-size: 20px;
-  line-height: 26px;
+  line-height: 1.3;
   margin-left: 40px;
   margin-top: 30px;
   border-bottom: 1px solid currentColor;
 }
 
-/*Об*/
+/*Об аукционе*/
 .about {
   display: grid;
   grid-template-columns: 334px 1fr;
   gap: 25px;
-  padding: 180px 50px 0;
+  padding: 120px 24px 0;
 }
 
 .about__logo {
@@ -259,15 +268,15 @@ ul {
 .about__title {
   font-size: 40px;
   font-weight: bold;
-  line-height: 47px;
+  line-height: 1.175;
   text-transform: uppercase;
-  margin-top: 100px;
+  margin-top: 133px;
   margin-bottom: 100px;
 }
 
 .about__text {
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
 }
 
 .about__text p:not(:last-child) {
@@ -293,7 +302,7 @@ ul {
 .footer__menu-list {
   text-align: center;
   font-size: 18px;
-  line-height: 24.3px;
+  line-height: 1.35;
 }
 
 .footer__menu-list-item {
