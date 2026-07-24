@@ -120,10 +120,12 @@ ul {
 
 .aligned-text_center {
   text-align: center;
+  margin-top: 6px;
 }
 
 .aligned-text_right {
   text-align: right;
+  margin-top: 6px;
 }
 
 .letter-spacing-extended {
@@ -141,7 +143,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 106px;
+  margin-top: 112px;
 }
 
 .cover__description-text {
@@ -263,7 +265,7 @@ ul {
   height: 240px;
   border-radius: 50%;
   background-color: #000;
-  margin: 0 auto;
+  margin: 6px auto 0;
 }
 
 .about__logo-image {
@@ -328,6 +330,7 @@ ul {
   justify-content: flex-end;
   align-items: center;
   height: 100%;
+  padding-top: 6px;
 }
 
 .footer__social-list-item {
