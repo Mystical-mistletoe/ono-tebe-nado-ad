@@ -265,7 +265,7 @@ ul {
   height: 240px;
   border-radius: 50%;
   background-color: #000;
-  margin: 12px auto 0;
+  margin: 24px auto 0;
 }
 
 .about__logo-image {
@@ -330,7 +330,7 @@ ul {
   justify-content: flex-end;
   align-items: center;
   height: 100%;
-  padding-top: 12px;
+  margin-top: -36px;
 }
 
 .footer__social-list-item {
